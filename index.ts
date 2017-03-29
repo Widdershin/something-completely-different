@@ -39,7 +39,6 @@ const suggestions = shuffle([
   'Watch a Monty Python skit',
   'Nap',
   'Go see a friend',
-  'Tidy',
   'Play a boardgame',
   'Plan a holiday',
 ]);
