@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "budo index.ts:bundle.js --live -- -p tsify",
+    "bundle": "browserify index.ts -o bundle.js -p tsify",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,6 +13,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^7.0.12",
+    "browserify": "^14.1.0",
     "budo": "^9.4.7",
     "tsify": "^3.0.1",
     "typescript": "^2.2.2"
