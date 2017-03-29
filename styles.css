@@ -1,0 +1,47 @@
+html, body {
+  margin: 0;
+  padding: 0;
+
+  font-family: Helvetica Neue, sans-serif;
+
+  height: 100%;
+
+  font-size: larger;
+
+  color: #222;
+
+  overflow: hidden;
+}
+
+.app {
+  height: 100%;
+}
+
+.something-completely-different {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  transition: 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+  height: 100%;
+}
+
+.explanation {
+  text-align: center;
+}
+
+.suggestion {
+  text-align: center;
+  font-size: 3rem;
+  transition: transform 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+  position: absolute;
+}
+
+.next-suggestion {
+  font-size: 1.3rem;
+  border-radius: 3px;
+  background: #FFF;
+}
+

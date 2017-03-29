@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^7.0.12",
     "budo": "^9.4.7",
     "tsify": "^3.0.1",
     "typescript": "^2.2.2"
@@ -19,6 +20,7 @@
     "@cycle/dom": "^17.1.0",
     "@cycle/run": "^3.1.0",
     "@cycle/time": "^0.8.0",
+    "lodash.shuffle": "^4.2.0",
     "xstream": "^10.3.0"
   }
 }
