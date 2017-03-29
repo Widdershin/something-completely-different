@@ -1,0 +1,24 @@
+{
+  "name": "something-completely-different",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.ts:bundle.js --live -- -p tsify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "budo": "^9.4.7",
+    "tsify": "^3.0.1",
+    "typescript": "^2.2.2"
+  },
+  "dependencies": {
+    "@cycle/dom": "^17.1.0",
+    "@cycle/run": "^3.1.0",
+    "@cycle/time": "^0.8.0",
+    "xstream": "^10.3.0"
+  }
+}
